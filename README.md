@@ -1,4 +1,3 @@
 # sepick-core
 
-A clean REST API for extracting data from stock exchanges, the National Stock Exchange and the Bombay Stock Exchange.
-
+A Java library for extracting data from stock exchanges, the National Stock Exchange of India (NSE) and the Bombay Stock Exchange (BSE).
