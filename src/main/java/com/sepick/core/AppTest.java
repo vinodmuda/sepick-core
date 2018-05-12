@@ -10,6 +10,6 @@ public class AppTest {
     public static void main(String[] args) throws IOException {
         HelloWorld helloWorld = (HelloWorld) SepickCoreUtils.getApplicationContext().getBean("helloWorld");
         helloWorld.printHello();
-        System.out.println(SepickCoreUtils.getPropertyValue(SepickConstants.NSE_URL));
+        System.out.println(SepickCoreUtils.getPropertyValue(SepickCoreConstants.NSE_URL));
     }
 }

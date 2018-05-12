@@ -15,12 +15,12 @@ import java.util.Properties;
 public class SepickCoreUtils {
 
     public static ApplicationContext getApplicationContext() {
-        ApplicationContext context = new ClassPathXmlApplicationContext(SepickConstants.SEPICK_APP_CONTEXT_FILE);
+        ApplicationContext context = new ClassPathXmlApplicationContext(SepickCoreConstants.SEPICK_APP_CONTEXT_FILE);
         return context;
     }
 
     public static String getPropertyValue(String key) throws IOException {
-        Resource resource = new ClassPathResource(SepickConstants.SEPICK_PROPERTIES_FILE);
+        Resource resource = new ClassPathResource(SepickCoreConstants.SEPICK_PROPERTIES_FILE);
         Properties props = PropertiesLoaderUtils.loadProperties(resource);
         return props.getProperty(key);
     }
