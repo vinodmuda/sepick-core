@@ -10,9 +10,4 @@
             </list>
         </property>
     </bean>
-
-    <bean id="helloWorld" class="com.sepick.core.HelloWorld" autowire="byName">
-        <property name="name" value="${nse.url}"/>
-    </bean>
-
 </beans>
